@@ -1,4 +1,5 @@
-![Collection Molecule Tests](https://github.com/matthewcosgrove/ansible-collection-hello_world/workflows/Collection%20Molecule%20Tests/badge.svg) ![Hello World Role Molecule Tests](https://github.com/matthewcosgrove/ansible-collection-hello_world/workflows/Hello%20World%20Role%20Molecule%20Tests/badge.svg)
+![Collection Molecule Tests](https://github.com/matthewcosgrove/matthewcosgrove.hello_world/hello-world/workflows/.github/workflows/main.yml/badge.svg) 
+![Hello World Role Molecule Tests](https://github.com/matthewcosgrove/matthewcosgrove.hello_world/hello-world/workflows/.github/role_hello_world.yml/badge.svg)
 
 # Ansible Collection - matthewcosgrove.hello_world
 
