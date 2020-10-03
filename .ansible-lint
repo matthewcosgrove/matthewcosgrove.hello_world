@@ -1,0 +1,11 @@
+exclude_paths:
+  - ./.github/
+  - ./meta/
+  - ./roles/hello_world/meta/
+  - ./venv/
+skip_list:
+  - '305'
+  - '306'
+  - '602'
+  - '503'
+

@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  collections:
+   - matthewcosgrove.hello_world
+  tasks:
+    - name: "Include hello_world"
+      include_role:
+        name: "hello_world"
