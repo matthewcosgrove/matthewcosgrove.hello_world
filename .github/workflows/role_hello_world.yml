@@ -1,4 +1,4 @@
-name: BUCC Tools Role Molecule Tests
+name: Hello World Role Molecule Tests
 
 on:
   push:
