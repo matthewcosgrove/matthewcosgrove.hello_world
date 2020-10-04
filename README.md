@@ -7,7 +7,7 @@ Hello World collection which just prints to debug
 
 ## Development prereqs
 
-Clone the repo into a location that can be run by the overall molecule tests (See the env var set [here](https://github.com/matthewcosgrove/matthewcosgrove.hello_world/blob/e0d860b39e9fe1cbd1bef0ed2bee990a1f8c70c5/molecule/default/molecule.yml#L18))
+Clone the repo into a location as required by ANSIBLE_COLLECTIONS_PATHS that enables running the molecule integration tests (See the env var set [here](https://github.com/matthewcosgrove/matthewcosgrove.hello_world/blob/e0d860b39e9fe1cbd1bef0ed2bee990a1f8c70c5/molecule/default/molecule.yml#L18))
 
 ```
 mkdir -p ~/collections/ansible_collections/matthewcosgrove/hello_world && cd "$_"
