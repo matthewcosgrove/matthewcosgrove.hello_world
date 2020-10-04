@@ -12,6 +12,8 @@ Clone the repo into a location as required by `ANSIBLE_COLLECTIONS_PATHS` that e
 ```
 mkdir -p ~/collections/ansible_collections/matthewcosgrove/hello_world && cd "$_"
 git clone https://github.com/matthewcosgrove/matthewcosgrove.hello_world.git
+# for convenience
+ln -s ~/collections/ansible_collections/matthewcosgrove/hello_world/ ~/matthewcosgrove.hello_world
 ```
 
 Initial installs (for Ubuntu, adapt for other OSs)
