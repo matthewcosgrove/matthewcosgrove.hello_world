@@ -31,5 +31,21 @@ source .venv/bin/activate
 docker --version
 pip3 install -U setuptools pip ansible ansible-lint yamllint 'molecule[docker]'
 molecule --version
+```
+
+## Testing
+
+### Integration test of all roles via collection
+
+```
+# cd into the root of this repo then
+molecule --debug test
+```
+
+### Individual role
+
+```
+# cd into role dir e.g.
+cd ~/collections/ansible_collections/matthewcosgrove/hello_world
 molecule --debug test
 ```
