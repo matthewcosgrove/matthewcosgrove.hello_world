@@ -9,7 +9,7 @@ namespace: matthewcosgrove
 name: hello_world
 
 # The version of the collection. Must be compatible with semantic versioning
-version: 0.0.4
+version: version_is_replaced_by_tagging_in_github_actions_publish_job
 
 # The path to the Markdown (.md) readme file. This path is relative to the root of the collection
 readme: README.md
