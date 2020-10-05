@@ -12,10 +12,11 @@ jobs:
     - uses: actions/checkout@v2
     - name: Update galaxy.yml version
       run: ./.github/scripts/tag_version.sh
-    - uses: stefanzweifel/git-auto-commit-action@v4
+    - uses: EndBug/add-and-commit@v5
       with:
-        commit_message: Updating galaxy.yml to match tag version
-        branch: main
+        message: "Updating galaxy.yml to match tag version"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Deploy the collection
       uses: artis3n/ansible_galaxy_collection@v2
       with:
