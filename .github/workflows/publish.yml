@@ -15,6 +15,7 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Updating galaxy.yml to match tag version
+        branch: main
     - name: Deploy the collection
       uses: artis3n/ansible_galaxy_collection@v2
       with:
