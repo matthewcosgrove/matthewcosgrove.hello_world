@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Pre-checks
-      run: |
-        env
+    - name: Update galaxy.yml version
+      run: ./.github/scripts/tag_version.sh
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Updating galaxy.yml to match tag version
     - name: Deploy the collection
       uses: artis3n/ansible_galaxy_collection@v2
       with:
