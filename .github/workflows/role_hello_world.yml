@@ -3,6 +3,7 @@ name: Hello World Role Molecule Tests
 on:
   push:
     branches: [ main ]
+    paths: roles/hello_world
   pull_request:
     branches: [ main ]
 
