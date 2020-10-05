@@ -14,5 +14,5 @@ echo "Processing tag version v${sem_version}"
   
 sed -i "/^version: /s/: .*$/: ${sem_version}/" "${galaxy_yaml_file}"
 
-echo "Updated galaxy.yml version""
+echo "Updated galaxy.yml version"
 cat "${galaxy_yaml_file}" | grep version:
