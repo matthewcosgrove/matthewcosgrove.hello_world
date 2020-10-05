@@ -10,13 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Update galaxy.yml version
+    - name: Update galaxy.yml version. TODO find a way to push the change ;-)
       run: ./.github/scripts/tag_version.sh
-    - uses: EndBug/add-and-commit@v5
-      with:
-        message: "Updating galaxy.yml to match tag version"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Deploy the collection
       uses: artis3n/ansible_galaxy_collection@v2
       with:
