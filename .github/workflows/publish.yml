@@ -10,7 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
+    - name: Pre-checks
+      run: |
+        env
     - name: Deploy the collection
       uses: artis3n/ansible_galaxy_collection@v2
       with:
