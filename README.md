@@ -1,5 +1,6 @@
 [![Collection Molecule Tests](https://github.com/matthewcosgrove/matthewcosgrove.hello_world/workflows/Collection%20Molecule%20Tests/badge.svg)](https://github.com/matthewcosgrove/matthewcosgrove.hello_world/actions?query=workflow%3A%22Collection+Molecule+Tests%22)
 [![Hello World Role Molecule Tests](https://github.com/matthewcosgrove/matthewcosgrove.hello_world/workflows/Hello%20World%20Role%20Molecule%20Tests/badge.svg)](https://github.com/matthewcosgrove/matthewcosgrove.hello_world/actions?query=workflow%3A%22Hello+World+Role+Molecule+Tests%22)
+[![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-hello__world-blue)](https://galaxy.ansible.com/matthewcosgrove/hello_world)
 
 # Ansible Collection - matthewcosgrove.hello_world
 
